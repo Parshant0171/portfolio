@@ -12,7 +12,7 @@ menuBtn.addEventListener('click',toggleMenu);///When we click the menu btn we wa
 
 function toggleMenu(){
     if(!showMenu){
-        menuBtn.classList.add('close');//here we add a class of close
+        menuBtn.classList.add('close');//here we add a class of close 
         menu.classList.add('show');
         menuNav.classList.add('show');
         menuBranding.classList.add('show');
