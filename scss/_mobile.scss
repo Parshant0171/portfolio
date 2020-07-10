@@ -6,7 +6,7 @@
     .menu-branding .portrait {
         width: 250px;
         height: 250px;
-        background: url("../img/profile2.JPG");
+        background: url("../img/profile.JPG");
         border-radius: 50%;
         border: solid 3px yellow;
         background-position: center;
@@ -25,7 +25,7 @@
     .menu-branding .portrait {
         width: 250px;
         height: 250px;
-        background: url("../img/profile2.JPG");
+        background: url("../img/profile.JPG");
         border-radius: 50%;
         border: solid 3px yellow;
         background-position: center;
@@ -34,6 +34,7 @@
         background-position-x: 2px;
         background-repeat: no-repeat;
     }
+    
 }
 
 /// Tablets and Small laptops
@@ -69,7 +70,7 @@
         transform: translate3d(100%,0,0);
 
         .portrait{
-            background: url('../img/profile2.jpg');
+            background: url('../img/profile.jpg');
             width: 150px;
             height: 105px;
             background-position: center;
