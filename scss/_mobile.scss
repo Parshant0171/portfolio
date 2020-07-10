@@ -1,5 +1,5 @@
 /// WideScreens
-/*@include mediaXl{
+@include mediaXl{
     .projects{
         grid-template-columns: repeat(4, 1fr);
     }
@@ -15,7 +15,7 @@
         background-position-x: 2px;
         background-repeat: no-repeat;
     }
-}*/
+}
 
 /// DeskTops
 @include mediaLg{
@@ -31,7 +31,6 @@
         background-position: center;
         background-size: cover;
         background-position-y: top;
-        background-position-x: 2px;
         background-repeat: no-repeat;
     }
     
