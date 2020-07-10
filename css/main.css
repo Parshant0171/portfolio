@@ -159,8 +159,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio'
- 'job1 job2 job3';
+  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -238,24 +237,22 @@ main {
   color: white;
   height: 60px; }
 
-/*@include mediaXl{
-    .projects{
-        grid-template-columns: repeat(4, 1fr);
-    }
-    .menu-branding .portrait {
-        width: 250px;
-        height: 250px;
-        background: url("../img/profile.JPG");
-        border-radius: 50%;
-        border: solid 3px yellow;
-        background-position: center;
-        background-size: cover;
-        background-position-y: top;
-        background-position-x: 2px;
-        background-repeat: no-repeat;
-    }
-}*/
-@media screen and (min-width: 769px) and (max-width: 1380px) {
+@media screen and (min-width: 1171px) {
+  .projects {
+    grid-template-columns: repeat(4, 1fr); }
+  .menu-branding .portrait {
+    width: 250px;
+    height: 250px;
+    background: url("../img/profile.JPG");
+    border-radius: 50%;
+    border: solid 3px yellow;
+    background-position: center;
+    background-size: cover;
+    background-position-y: top;
+    background-position-x: 2px;
+    background-repeat: no-repeat; } }
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
     grid-template-columns: repeat(3, 1fr); }
   .menu-branding .portrait {
@@ -267,26 +264,7 @@ main {
     background-position: center;
     background-size: cover;
     background-position-y: top;
-    background-position-x: 2px;
-    background-repeat: no-repeat; }
-  .boxess {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 1rem; }
-  .boxes div {
-    font-size: 2rem;
-    border: 3px white solid;
-    padding: 1.5rem 1.5rem;
-    margin-bottom: 3rem;
-    transition: all 0.5s ease-out; }
-  .boxes div:hover {
-    padding: 0.5rem 1.5rem;
-    background: yellow;
-    color: black; }
-  .boxes div:hover span {
-    color: black; } }
+    background-repeat: no-repeat; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -318,11 +296,7 @@ main {
       background-position-x: 2px;
       background-repeat: no-repeat; }
   .about-info {
-    grid-template-areas: 'bioimage'
- 'bio'
- 'job1'
- 'job2'
- 'job3';
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
